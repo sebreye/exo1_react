@@ -1,0 +1,30 @@
+.cards-header{
+    background-color: rgb(4, 4, 101);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vh; 
+    margin: auto;
+    
+    border-radius: 15px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    color: rgb(70, 70, 164);
+}
+.info-crypt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Jules{
+    color: white;
+}
+.view-icon{
+    position: relative;
+    top: -195px;
+    opacity: 0;
+}
+.view-icon:hover{
+    opacity: 1;
+}
