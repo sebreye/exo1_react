@@ -1,30 +1,70 @@
 .cards-header{
-    background-color: rgb(4, 4, 101);
+    background-color: rgb(20, 20, 60);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60vh; 
+    width: 55vh; 
     margin: auto;
-    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     border-radius: 15px;
     padding-top: 3vh;
     padding-bottom: 3vh;
     color: rgb(70, 70, 164);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cards-header img:first-child:hover{
+    background: linear-gradient(103deg, rgba(3,230,252,1) 0%, rgba(0,249,255,0.47111344537815125) 0%);
 }
 .info-crypt{
     display: flex;
     justify-content: space-between;
 }
-
+.img-hover{
+    background-image: url("../img/image-equilibrium.jpg");
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    border-radius: 15px;
+}
+.Para-header{
+    width: 50vh;
+}
 .Jules{
     color: white;
 }
+.Jules:hover{
+    cursor: pointer;
+    color: aqua;
+}
 .view-icon{
     position: relative;
-    top: -195px;
+    top: 40%;
+    left: 42%;
+}
+h2{
+    color: white;
+}
+h2:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.div-icon{
+    /* background-color: rgba(0, 213, 255, 0.5); */
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
     opacity: 0;
 }
-.view-icon:hover{
+.div-icon:hover:active{
+    background-color: rgba(0, 213, 255, 0.5);
     opacity: 1;
 }
+.view-icon:hover:active{
+    opacity: 1;
+}
+
